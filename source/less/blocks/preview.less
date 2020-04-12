@@ -1,0 +1,163 @@
+.preview__item {
+    width: 1300px;
+    background-image: url(../img/preview-background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    position: relative;
+    float: left;
+}
+
+.preview__inner {
+    overflow: hidden;
+    position: relative;
+}
+
+.preview__list {
+    width: 4500px;
+    transition: transform 1.5s ease;
+}
+
+.preview__slider {
+    margin-top: 63px;
+    position: relative;
+}
+
+.preview__title {
+    font-size: 56px;
+    line-height: 75px;
+    padding-top: 152px;
+    margin-top: 0;
+    margin-left: 71px;
+}
+
+.preview__wrapper {
+    display: flex;
+}
+
+.preview__img {
+    margin-left: 165px;
+    padding-top: 105px;
+    padding-bottom: 104px;
+}
+
+.preview__cost {
+    margin-left: 48px;
+    padding-top: 317px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+.preview__more {
+    width: 229px;
+    height: 27px;
+    margin-left: 71px;
+    border-bottom: 3px solid #c1a067;
+    position: absolute;
+    top: 350px;
+    
+}
+
+.preview__link {
+    color: #c1a067;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+
+.second-item {
+    margin-left: 70px;
+}
+
+.third-item {
+    margin-left: 70px;
+}
+
+.preview__slider input[type="radio"] {
+    display: none;
+}
+
+.slider__controls {
+    
+    margin-left: 320px; 
+    position: absolute;
+    top: 434px;
+    
+}
+
+.slider__controls label {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #c1a067;
+    margin-left: 31px;
+    cursor: pointer;
+
+    transition: background-color 0.7s ease-in-out;
+
+    &:hover {
+        background-color: #c1a067;
+    }
+}
+
+#btn-1:checked ~ .slider__controls label[for="btn-1"] {
+    background-color: #c1a067;
+}
+
+#btn-2:checked ~ .slider__controls label[for="btn-2"] {
+    background-color: #c1a067;
+}
+
+#btn-3:checked ~ .slider__controls label[for="btn-3"] {
+    background-color: #c1a067;
+}
+
+#btn-1:checked ~ .preview__inner .preview__list {
+    transform: translateX(0);
+}
+
+#btn-2:checked ~ .preview__inner .preview__list {
+    transform: translateX(-1360px);
+}
+
+#btn-3:checked ~ .preview__inner .preview__list {
+    transform: translateX(-2720px);
+}
+
+
+.delivery {
+    display: flex;
+    width: 1243px;
+    
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 63px;
+    margin-left: 170px;
+}
+
+.delivery p {
+    position: relative;
+}
+
+.delivery p::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: -110px;
+    width: 80px;
+    height: 0.5px;
+    background-color: #302a31;
+    opacity: 0.1;
+}
+
+.delivery__location {
+    margin-left: 205px;
+}
+
+.delivery__sales {
+    margin-left: 147px;
+}
+
+.delivery__express {
+    margin-left: 189px;
+}

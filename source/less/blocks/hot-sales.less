@@ -1,0 +1,144 @@
+.hot-sales__list {
+    list-style: none;
+    padding-left: 0;
+    transition: transform 1s ease;
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px 330px 330px;
+    margin-top: 99px;
+    margin-left: -5px;
+    
+    width: 1960px;
+
+}
+
+
+.custom-border {
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 77px;
+}
+
+.custom-border::before {
+    position: absolute;
+    content: "";
+
+    width: 419px;
+    height: 2px;
+    top: 50px;
+    left: 511px;
+
+    background-color: #c1a067;
+}
+
+
+
+.item {
+    border-left: 1px solid rgba(48, 42, 49, 0.1);
+}
+
+.hot-sales__item1 {
+    border-left: none;
+}
+
+.item-img {
+    margin-left: 40px;
+}
+
+.item-title {
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hot-sales__item2 .hot-sales__item-title {
+    margin-top: 34px;
+}
+
+.hot-sales__item3 .hot-sales__item-title {
+    margin-top: 35px;
+}
+
+.hot-sales__item4 .hot-sales__item-title {
+    margin-top: 54px;
+}
+
+.item-production {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.item-description {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.item-gender {
+    font-size: 13px;
+    text-align: center;
+}
+
+.item-cost {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cost-sale {
+    color: #c16774;
+    margin-right: 25px;
+
+    text-decoration: line-through;
+}
+
+.hot-sales__inner {
+    overflow: hidden;
+    width: 1290px;
+    margin-left: 59px;
+    
+}
+
+.hot-sales__slider {
+    position: relative;
+}
+
+
+.button {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 261px;
+    left: 50px;
+
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    border-left: none;
+    border-top: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: border-color 0.7s ease;
+    z-index: 10;
+
+    &:hover {
+        border-color: #a08049;
+    }
+    
+    &:active {
+        border-color: #000000;
+    }
+}
+
+
+
+.left-button {
+    transform: rotate(135deg)
+}
+
+.right-button {
+    transform: rotate(-45deg;);
+    left: 1351px;
+}

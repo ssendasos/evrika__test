@@ -1,0 +1,228 @@
+.page-footer {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #302a31;
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+
+.page-footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 69px;
+    margin-right: 71px;
+    padding-top: 76px;
+}
+
+.list {
+    padding-left: 0;
+    list-style: none;
+    
+}
+
+
+.list a {
+    color: #ffffff;
+    line-height: 26px;
+    transition: color 0.5s ease;
+    margin-bottom: 5px;
+    display: block;
+    &:hover {
+        color: #c1a067;
+    }
+}
+
+.about__title {
+    font-size: 18px;
+}
+
+.catalog__title {
+    font-size: 18px;
+}
+
+.footer__contacts--number {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer__contacts p {
+    position: relative;
+}
+
+
+.footer__contacts--call::before {
+    position: absolute;
+    content: "";
+
+    width: 9px;
+    height: 11px;
+    top: 4px;
+    left: -25px;
+
+    background-image: url(../img/phone.png);
+    background-repeat: no-repeat;
+}
+
+.footer__contacts--email::before {
+    position: absolute;
+    content: "";
+    background-image: url(../img/email.png);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 11px;
+    left: -27px;
+    top: 5px;
+}
+
+.footer__contacts--skype::before {
+    position: absolute;
+    content: "";
+    background-image: url(../img/skype.png);
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 10px;
+    left: -25px;
+    top: 5px;
+}
+
+.footer__contacts--call,
+.footer__contacts--email,
+.footer__contacts--skype {
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+
+.footer__contacts--availability {
+    margin-bottom: 25px;
+}
+
+.footer__contacts--availability::before {
+    position: absolute;
+    content: "";
+    width: 26px;
+    height: 26px;
+    top: 0;
+    left: 144px;
+
+    background-image: url(../img/whatsapp.png);
+    background-repeat: no-repeat;
+}
+
+.footer__contacts--availability::after {
+    position: absolute;
+    content: "";
+    width: 19px;
+    height: 20px;
+    top: 7;
+    left: 185px;
+
+    background-image: url(../img/viber.png);
+    background-repeat: no-repeat;
+}
+
+.footer__contacts--time {
+    margin-bottom: 30px;
+}
+
+
+.subscribe__title {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 18px;
+}
+
+.subscribe__input {
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #c1a067;
+    width: 310px;
+    padding-bottom: 15px;
+    margin-bottom: 28px;
+    color: #ffffff;
+    transition: border-color 1s ease;
+    
+}
+
+.subscribe__input:hover {
+    border-color: #c58a24;
+}
+
+.subscribe__submit {
+    border: none;
+    background-color: transparent;
+    color: #c1a067;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-bottom: 90px;
+    transition: color 0.5s ease;
+    cursor: pointer;
+
+    &:hover {
+        color: #c58a24;
+    }
+}
+
+.subscribe__inst {
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    margin-left: 80px;
+    transition: color 0.5s ease;
+
+    &:hover {
+        color: #c1a067;
+    }
+}
+
+.subscribe__inst::before {
+    position: absolute;
+    content: "";
+    width: 114px;
+    height: 114px;
+    top: -35px;
+    left: -100px;
+
+    background-image: url(../img/inst.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.copyrights {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 69px;
+    margin-right: 71px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 67px;
+    padding-bottom: 57px;
+}
+
+.copyright {
+    padding-top: 33px;
+}
+
+
+.author {
+    padding-top: 33px;
+    position: relative;
+}
+
+
+.author::before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 20px;
+
+    top: 33px;
+    left: -32px;
+
+    background-image: url(../img/author-logo.png);
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "ssendasos-lenoma",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
